@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Git Asset Diff",
+	"Description": "Editor-only tool that diffs a Content Browser asset against any local Git revision (branch, tag, commit) using Unreal's native diff tool, without checking anything out.",
+	"Category": "Editor",
+	"CreatedBy": "KnockKnockP",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Modules": [
+		{
+			"Name": "GitAssetDiff",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
